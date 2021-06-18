@@ -1,0 +1,12 @@
+{
+    "name": "t-po_tools",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Chrome Extension t-po_autologin",
+    "content_scripts": [{
+        "matches": ["https://t-po.tais.ac.jp/up/faces/login/Com00504A.jsp"],
+        "js": [
+            "content.js"
+        ]
+    }]
+}

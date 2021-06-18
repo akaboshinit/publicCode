@@ -1,0 +1,1 @@
+.responsive{width:800px}.responsive_card{width:350px}@media screen and (max-width: 800px){.responsive{width:100%}}@media screen and (max-width: 350px){.responsive_card{width:100%}}

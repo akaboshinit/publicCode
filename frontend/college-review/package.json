@@ -1,0 +1,23 @@
+{
+  "name": "college-review",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.10.0",
+    "algoliasearch": "^4.4.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-autosuggest": "^10.0.2",
+    "react-dom": "16.13.1",
+    "react-instantsearch-dom": "^6.7.0"
+  }
+}

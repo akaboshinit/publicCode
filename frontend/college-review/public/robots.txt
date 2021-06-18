@@ -1,0 +1,3 @@
+User-Agent:*
+Disallow:
+sitemap:https://college-review.netlify.app/sitemap.xml

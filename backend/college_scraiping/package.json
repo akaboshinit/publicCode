@@ -1,0 +1,25 @@
+{
+  "name": "college_scraiping",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "googleapis": "^59.0.0",
+    "puppeteer": "^5.2.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaboshinit/college_scraiping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akaboshinit/college_scraiping/issues"
+  },
+  "homepage": "https://github.com/akaboshinit/college_scraiping#readme",
+  "description": ""
+}

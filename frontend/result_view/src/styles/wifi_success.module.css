@@ -1,0 +1,26 @@
+/* @keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+.types {
+    font-family: monospace; 
+    width: 11ch;
+    border-right: .08em solid;
+    overflow: hidden;
+    font-size: 4em;
+    white-space: nowrap;
+    animation: typing 5s steps(11, end), caret .5s step-end infinite;
+} */
+/* html{
+    background: #CCD0D4;
+} */
+.types {
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (max-width: 500px) {
+  .types {
+    width: 90%;
+    margin: 5% 0;
+  }
+}

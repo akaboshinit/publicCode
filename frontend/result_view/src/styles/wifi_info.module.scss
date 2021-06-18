@@ -1,0 +1,34 @@
+.responsive {
+    width: 800px;
+}
+
+.responsive_card {
+    width: 350px;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+.str_p {
+    padding: 5px 10px;
+}
+
+.title_mini {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .responsive_card {
+        width: 100%;
+    }
+}
+

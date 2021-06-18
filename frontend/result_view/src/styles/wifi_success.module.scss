@@ -1,0 +1,287 @@
+/* @keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+.types {
+    font-family: monospace; 
+    width: 11ch;
+    border-right: .08em solid;
+    overflow: hidden;
+    font-size: 4em;
+    white-space: nowrap;
+    animation: typing 5s steps(11, end), caret .5s step-end infinite;
+} */
+
+/* html{
+    background: #CCD0D4;
+} */
+// .types {
+//     text-align: center;
+//     text-transform: uppercase;
+//     font-family: 'Nunito', sans-serif;
+//     font-size: 9.375em;
+//     color: transparent;
+//     letter-spacing: 0.1em;
+//     text-shadow:
+//         0 0 2px rgba(204, 208, 212,0.9),
+//         0 15px 25px rgba(0, 0, 0, 0.3),
+//         0 -2px 3px rgba(0, 0, 0, 0.1),
+//         0 -5px 10px rgba(255, 255, 255, 0.5),
+//         0 5px 10px rgba(0, 0, 0, 0.3),
+//         0 3px 4px rgba(255, 255, 255, 0.2),
+//         0 0 20px rgba(255, 255, 255, 0.45);
+// }
+
+// $blue : #35A7FF;
+// $pink : #FFE74C;
+// $green : #FF5964;
+// $red : #FF5964;
+// $frame : calc(15/100);
+// // html{
+// // 	background:linear-gradient(rgba(40,40,40,.9),rgba(20,20,20,.9));
+// // 	height:100%;
+// // }
+// .types{
+// 	color:white;
+// 	font-size:500%;
+// 	text-align:center;
+// 	font-family:sans-serif;
+// 	letter-spacing:.10em;
+// 	text-rendering:optimizeLegibility;
+	
+// 	text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $blue,
+// 		-2px 4px 1px $blue,
+// 		-3px 6px 1px $blue,
+// 		-4px 8px 1px $pink,
+// 		-5px 8px 1px $pink,
+// 		-6px 10px 0px $pink,
+// 		-7px 12px 1px $green,
+// 		-8px 14px 1px $green,
+// 		-9px 16px 1px $green,
+// 		-10px 18px 1px $red,
+// 		-11px 20px 1px $red,
+// 		-12px 22px 0px $red;
+		
+// 		animation:scrollOne 1s forwards infinite;
+// }
+
+// @keyframes scrollOne{
+// 	0%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $blue,
+// 		-2px 4px 1px $blue,
+// 		-3px 6px 1px $blue,
+// 		-4px 8px 1px $pink,
+// 		-5px 8px 1px $pink,
+// 		-6px 10px 0px $pink,
+// 		-7px 12px 1px $green,
+// 		-8px 14px 1px $green,
+// 		-9px 16px 1px $green,
+// 		-10px 18px 1px $red,
+// 		-11px 20px 1px $red,
+// 		-12px 22px 0px $red;
+// 	}
+// 	9.09%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $red,
+// 		-2px 4px 1px $blue,
+// 		-3px 6px 1px $blue,
+// 		-4px 8px 1px $blue,
+// 		-5px 8px 1px $pink,
+// 		-6px 10px 0px $pink,
+// 		-7px 12px 1px $pink,
+// 		-8px 14px 1px $green,
+// 		-9px 16px 1px $green,
+// 		-10px 18px 1px $green,
+// 		-11px 20px 1px $red,
+// 		-12px 22px 0px $red;
+// 	}
+// 	18.18%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $red,
+// 		-2px 4px 1px $red,
+// 		-3px 6px 1px $blue,
+// 		-4px 8px 1px $blue,
+// 		-5px 8px 1px $blue,
+// 		-6px 10px 0px $pink,
+// 		-7px 12px 1px $pink,
+// 		-8px 14px 1px $pink,
+// 		-9px 16px 1px $green,
+// 		-10px 18px 1px $green,
+// 		-11px 20px 1px $green,
+// 		-12px 22px 0px $red;
+// 	}
+// 	27.27%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $red,
+// 		-2px 4px 1px $red,
+// 		-3px 6px 1px $red,
+// 		-4px 8px 1px $blue,
+// 		-5px 8px 1px $blue,
+// 		-6px 10px 0px $blue,
+// 		-7px 12px 1px $pink,
+// 		-8px 14px 1px $pink,
+// 		-9px 16px 1px $pink,
+// 		-10px 18px 1px $green,
+// 		-11px 20px 1px $green,
+// 		-12px 22px 0px $green;
+// 	}
+//   36.36%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $green,
+// 		-2px 4px 1px $red,
+// 		-3px 6px 1px $red,
+// 		-4px 8px 1px $red,
+// 		-5px 8px 1px $blue,
+// 		-6px 10px 0px $blue,
+// 		-7px 12px 1px $blue,
+// 		-8px 14px 1px $pink,
+// 		-9px 16px 1px $pink,
+// 		-10px 18px 1px $pink,
+// 		-11px 20px 1px $green,
+// 		-12px 22px 0px $green;
+// 	}
+// 	45.45%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $green,
+// 		-2px 4px 1px $green,
+// 		-3px 6px 1px $red,
+// 		-4px 8px 1px $red,
+// 		-5px 8px 1px $red,
+// 		-6px 10px 0px $blue,
+// 		-7px 12px 1px $blue,
+// 		-8px 14px 1px $blue,
+// 		-9px 16px 1px $pink,
+// 		-10px 18px 1px $pink,
+// 		-11px 20px 1px $pink,
+// 		-12px 22px 0px $green;
+// 	}
+// 	54.54%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $green,
+// 		-2px 4px 1px $green,
+// 		-3px 6px 1px $green,
+// 		-4px 8px 1px $red,
+// 		-5px 8px 1px $red,
+// 		-6px 10px 0px $red,
+// 		-7px 12px 1px $blue,
+// 		-8px 14px 1px $blue,
+// 		-9px 16px 1px $blue,
+// 		-10px 18px 1px $pink,
+// 		-11px 20px 1px $pink,
+// 		-12px 22px 0px $pink;
+// 	}
+// 	63.63%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $pink,
+// 		-2px 4px 1px $green,
+// 		-3px 6px 1px $green,
+// 		-4px 8px 1px $green,
+// 		-5px 8px 1px $red,
+// 		-6px 10px 0px $red,
+// 		-7px 12px 1px $red,
+// 		-8px 14px 1px $blue,
+// 		-9px 16px 1px $blue,
+// 		-10px 18px 1px $blue,
+// 		-11px 20px 1px $pink,
+// 		-12px 22px 0px $pink;
+// 	}
+// 	72.72%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $pink,
+// 		-2px 4px 1px $pink,
+// 		-3px 6px 1px $green,
+// 		-4px 8px 1px $green,
+// 		-5px 8px 1px $green,
+// 		-6px 10px 0px $red,
+// 		-7px 12px 1px $red,
+// 		-8px 14px 1px $red,
+// 		-9px 16px 1px $blue,
+// 		-10px 18px 1px $blue,
+// 		-11px 20px 1px $blue,
+// 		-12px 22px 0px $pink;
+// 	}
+// 	81.81%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $pink,
+// 		-2px 4px 1px $pink,
+// 		-3px 6px 1px $pink,
+// 		-4px 8px 1px $green,
+// 		-5px 8px 1px $green,
+// 		-6px 10px 0px $green,
+// 		-7px 12px 1px $red,
+// 		-8px 14px 1px $red,
+// 		-9px 16px 1px $red,
+// 		-10px 18px 1px $blue,
+// 		-11px 20px 1px $blue,
+// 		-12px 22px 0px $blue;
+// 	}
+// 	90.90%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $blue,
+// 		-2px 4px 1px $pink,
+// 		-3px 6px 1px $pink,
+// 		-4px 8px 1px $pink,
+// 		-5px 8px 1px $green,
+// 		-6px 10px 0px $green,
+// 		-7px 12px 1px $green,
+// 		-8px 14px 1px $red,
+// 		-9px 16px 1px $red,
+// 		-10px 18px 1px $red,
+// 		-11px 20px 1px $blue,
+// 		-12px 22px 0px $blue;
+// 	}
+// 	100%{
+// 		text-shadow:
+// 		1px -1px 0px #555,
+// 		-1px 2px 0px $blue,
+// 		-2px 4px 1px $blue,
+// 		-3px 6px 1px $pink,
+// 		-4px 8px 1px $pink,
+// 		-5px 8px 1px $pink,
+// 		-6px 10px 0px $green,
+// 		-7px 12px 1px $green,
+// 		-8px 14px 1px $green,
+// 		-9px 16px 1px $red,
+// 		-10px 18px 1px $red,
+// 		-11px 20px 1px $red,
+// 		-12px 22px 0px $blue;
+// 	}
+	
+// }
+
+
+.types{
+    width:  350px;
+    height: 350px;
+}
+
+@media screen and (max-width: 500px) {
+    .types{
+        width: 90%;
+        // padding: 20px 0;
+        margin: 5% 0;
+    }
+}
+
+// .responsive_card {
+//     width: 350px;
+// }
+
+// @media screen and (max-width: 350px) {
+//     .responsive_card {
+//         width: 100%;
+//     }
+// }

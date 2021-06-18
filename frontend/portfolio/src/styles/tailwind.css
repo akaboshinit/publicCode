@@ -1,0 +1,36 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* @apply bg-gray-900 dark:bg-gray-50; */
+html,
+body {
+  @apply bg-gray-900;
+  /* background-color: #FFFFFF; */
+  font-family: 'Inter','Kosugi Maru','M PLUS Rounded 1c';
+}
+
+.bg_whiteblue {
+  background-color: #F1F5F9;
+}
+
+/* .stroke_text {
+  color: rgba(0 0 0 / 0);
+  letter-spacing: .1em;
+  -webkit-text-stroke: 3px #555555;
+  text-shadow: 4px 4px 0 #498EE0;
+}
+
+.stroke_box {
+  box-shadow: 20px 20px 0 #c3a400;
+} */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */

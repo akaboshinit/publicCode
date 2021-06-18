@@ -1,0 +1,20 @@
+{
+  "name": "wi-fi_success",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export",
+    "vercel_build": "yum install libuuid-devel libmount-devel && cp /lib64/{libuuid,libmount,libblkid}.so.1 node_modules/canvas/build/Release/ && npm run build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "canvas": "^2.6.1",
+    "next": "10.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.30.0"
+  }
+}

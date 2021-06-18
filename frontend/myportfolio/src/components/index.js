@@ -1,0 +1,1 @@
+export {default as Imgcard} from './imgcard'

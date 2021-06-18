@@ -1,0 +1,26 @@
+firebase serve --only functions,hosting
+
+firebase deploy --only functions
+
+firebase deploy --only functions:scraping
+
+ngrok http 5000
+
+https://t-pobot-copy-6db93.web.app/webhook
+
+{headless: false,slowMo: 50 }
+
+cd Desktop/practice/node/t-pobot-copy
+
+firebase functions:delete 
+
+"firebase-admin": "^8.10.0",
+"firebase-functions": "^3.6.1",
+"puppeteer": "^2.1.1"
+
+
+updatenote-------------------------------------------------------
+6/2 
+スクレイピング高速化のためのスマホからログインにしたが
+結局複数ログインの問題が解決できず時間差で力技にした
+だが過去のデータと今のデータを比べる機構を正確にしたので良い
